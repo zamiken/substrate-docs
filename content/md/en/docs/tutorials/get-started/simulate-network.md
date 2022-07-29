@@ -6,8 +6,8 @@ keywords:
 
 This tutorial provides a basic introduction to how you can start a private blockchain network with an **authority set** of private **validators**.
 
-The Substrate node template uses an authority consensus model that limits block production to a rotating list of authorized accounts.
-The authorized accounts—**authorities**—are responsible for creating blocks in a round robin fashion.
+The Substrate node template uses an authority consensus model that limits block production to a **rotating list** of authorized accounts.
+The authorized accounts—**authorities**—are responsible for creating blocks in a **round robin fashion**.
 
 In this tutorial, you'll see how the authority consensus model works in practice by using two predefined accounts as the authorities that enable the nodes to produce blocks.
 In this simulated network, the two nodes are started using different accounts and keys but run on a single computer.
